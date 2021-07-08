@@ -44,6 +44,7 @@ func main() {
 
 	var i int
 	fmt.Println(i, c, python, java)
+
 }
 
 // NOTES
@@ -77,3 +78,8 @@ func main() {
 // float32 float64
 
 // complex64 complex128
+
+// The expression T(v) converts the value v to the type T.
+// i := 42
+// f := float64(i)
+// u := uint(f)
